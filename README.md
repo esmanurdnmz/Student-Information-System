@@ -17,14 +17,17 @@ pip install PyQt5
  ```
 3. Run the application:
  ```bash
-python main.py
+python obs_interface.py
 ```
 ## Project Structure/
  ```
 │
-├── main.py — Main application entry point
-├── ui/ — PyQt5 UI files (if any)
-├── data/ — Student data files (if any)
+├── obs_interface.py — Main GUI application
+├── OBS_db.py — Database or data management code
+├── obs_code.py — Core logic and helper functions
+├── .venv/ — Virtual environment
+├── .idea/ — IDE config files
+├── __pycache__/ — Python cache
  ```
 ## Note
 
